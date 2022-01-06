@@ -1,13 +1,6 @@
 from flask import Flask,request,render_template,jsonify, url_for
 import profile_create
 
-# 実行部分
-# def main():
-#     url = "https://search.rakuten.co.jp/search/mall/ANKER/?f=0"
-#     df = scr(url)
-#     print(df)
-#     slack_send(df)
-
 #Flaskの設定
 app = Flask(__name__, static_folder='./templates/Upload')
 
