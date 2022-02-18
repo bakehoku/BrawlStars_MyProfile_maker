@@ -1,9 +1,20 @@
 import requests
+import os
+import json
  
-TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImFiMGM0ZmQxLTBmMjctNDdmOC05YWY5LWFhNmZlYzllYjU5MyIsImlhdCI6MTYwOTQxNDgxNSwic3ViIjoiZGV2ZWxvcGVyLzcxYTRhZDAzLTAxZTYtZjJhOC0yZTM1LTEyODlhMmQ3OWM3NCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMTI1LjE5OC4xNzguMzUiXSwidHlwZSI6ImNsaWVudCJ9XX0.MOmHX6krZyeh197bOxhX1D2Abr0J_UPrf91zwo1Q6U4BQHVcAPbn1BpOQCrpMiAFIECYGHRToQ2anAvBYaI1ww"
+TOKEN = "BrawlStarsAPIのトークン"
+
+def get_proxies():
+    proximo_url = os.environ.get('PROXIMO_URL')
+    print(proximo_url)
+    if proximo_url is None:
+        return {}
+    return {'http': proximo_url, 'https': proximo_url}
 
 def GETrank(Tag):
-    URL_p = "https://api.brawlstars.com/v1/players/%23"
+
+    #本来は以下のコメントアウトされたコードよりプレイヤーデータを取得
+    """URL_p = "https://api.brawlstars.com/v1/players/%23"
     headers = {
             "content-type": "application/json; charset=utf-8",
             "cache-control": "max-age=600",
@@ -13,8 +24,16 @@ def GETrank(Tag):
     playertag = Tag
     endpoint = URL_p + playertag
     
-    response = requests.get(endpoint, headers=headers)
-    results = response.json()
+    response = requests.get(endpoint, headers=headers, proxies=get_proxies())
+    results = response.json()"""
+
+    #APIが登録したIPアドレスからのみアクセス可能のため
+    # 今回は事前に取得したデータを読み込み挙動を再現
+
+    # 再現用コード
+    with open('json_sample/'+ Tag +'.json', 'r') as f:
+        results = json.load(f)
+    # ここまで
         
     rank_data = []
     brawler_num = len(results["brawlers"])

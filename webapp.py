@@ -17,14 +17,18 @@ def result():
 @app.route('/output', methods=['POST'])
 def output():
     #json形式でURLを受け取る
-    tag = request.json['url1']
-    profile_create.maker(tag)
+    tag = request.json['PlayerTag']
+    try:
+        profile_create.maker(tag)
+        return_data = {"result":"成功"}
+    except:
+        return_data = {"result":"失敗"}
+        print()
     """df = scr(url)
     print(df)
     out_of_stock_rate = df.stock_flg.sum()/len(df)
     print(out_of_stock_rate)
     return_data = {"result":round(out_of_stock_rate*100,1)}"""
-    return_data = {"result":"成功"}
     #return render_template('index.html', img_url="./../Upload/res.jpg")
     return jsonify(ResultSet=return_data)
 

@@ -17,7 +17,7 @@
         <h1 id="title">ブロスタMyプロフィールメーカー</h1>
         <form>
             <div class="mb-3">
-              <input type="text" class="form-control" id="url1" name="url1" placeholder="url1" aria-describedby="emailHelp">
+              <input type="text" class="form-control" id="PlayerTag" name="PlayerTag" placeholder="PlayerTag" aria-describedby="emailHelp">
             </div>
         </form>
         <button type="button" class="btn btn-info my-3" id="button1">プロフィール作成</button>
@@ -34,7 +34,7 @@
             // ボタン押下イベントを発生
             $("#button1").on("click", function () {
                 // 先ほどのIDからデータを引っ張ります
-                var textData = JSON.stringify({ "url1": $("#url1").val() });
+                var textData = JSON.stringify({ "PlayerTag": $("#PlayerTag").val() });
                 // 非同期（Ajax）処理
                 $.ajax({
                     type: 'POST',

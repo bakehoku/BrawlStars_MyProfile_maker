@@ -1,0 +1,281 @@
+{
+    "tag": "#9R2UQYL9C",
+    "name": "B4K3H0KU",
+    "icon": {
+        "id": 28000000
+    },
+    "trophies": 732,
+    "highestTrophies": 732,
+    "expLevel": 13,
+    "expPoints": 1264,
+    "isQualifiedFromChampionshipChallenge": false,
+    "3vs3Victories": 32,
+    "soloVictories": 46,
+    "duoVictories": 11,
+    "bestRoboRumbleTime": 0,
+    "bestTimeAsBigBrawler": 0,
+    "club": {},
+    "brawlers": [
+        {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 5,
+            "rank": 8,
+            "trophies": 115,
+            "highestTrophies": 115,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 7,
+            "rank": 5,
+            "trophies": 46,
+            "highestTrophies": 46,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": [
+                {
+                    "id": 23000273,
+                    "name": "SPEEDLOADER"
+                }
+            ]
+        },
+        {
+            "id": 16000002,
+            "name": "BULL",
+            "power": 1,
+            "rank": 6,
+            "trophies": 70,
+            "highestTrophies": 70,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000006,
+            "name": "BARLEY",
+            "power": 5,
+            "rank": 3,
+            "trophies": 23,
+            "highestTrophies": 23,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 1,
+            "rank": 5,
+            "trophies": 54,
+            "highestTrophies": 54,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000010,
+            "name": "EL PRIMO",
+            "power": 1,
+            "rank": 3,
+            "trophies": 22,
+            "highestTrophies": 22,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000013,
+            "name": "POCO",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000018,
+            "name": "DARRYL",
+            "power": 9,
+            "rank": 10,
+            "trophies": 148,
+            "highestTrophies": 148,
+            "gears": [],
+            "starPowers": [
+                {
+                    "id": 23000094,
+                    "name": "STEEL HOOPS"
+                }
+            ],
+            "gadgets": [
+                {
+                    "id": 23000260,
+                    "name": "RECOILING ROTATOR"
+                },
+                {
+                    "id": 23000313,
+                    "name": "TAR BARREL"
+                }
+            ]
+        },
+        {
+            "id": 16000019,
+            "name": "PENNY",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000020,
+            "name": "FRANK",
+            "power": 5,
+            "rank": 4,
+            "trophies": 32,
+            "highestTrophies": 32,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000021,
+            "name": "GENE",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000024,
+            "name": "ROSA",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000025,
+            "name": "CARL",
+            "power": 5,
+            "rank": 7,
+            "trophies": 83,
+            "highestTrophies": 83,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000028,
+            "name": "SANDY",
+            "power": 3,
+            "rank": 7,
+            "trophies": 80,
+            "highestTrophies": 80,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000034,
+            "name": "JACKY",
+            "power": 5,
+            "rank": 4,
+            "trophies": 30,
+            "highestTrophies": 30,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000037,
+            "name": "SPROUT",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 1,
+            "rank": 3,
+            "trophies": 29,
+            "highestTrophies": 29,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        },
+        {
+            "id": 16000047,
+            "name": "SQUEAK",
+            "power": 1,
+            "rank": 1,
+            "trophies": 0,
+            "highestTrophies": 0,
+            "gears": [],
+            "starPowers": [],
+            "gadgets": []
+        }
+    ]
+}
