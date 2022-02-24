@@ -14,7 +14,7 @@ Twitter：https://twitter.com/bakehokuX
 
 【本アプリについて】
 
-プレイヤーデータを取得するBrawlStarsAPI(https://developer.brawlstars.com/#/)が指定したIPアドレスのみアクセス可能のため、本アプリは挙動を疑似的に再現したものとなります。
+プレイヤーデータを取得するBrawlStarsAPI(https://developer.brawlstars.com/#/) が指定したIPアドレスのみアクセス可能のため、本アプリは挙動を疑似的に再現したものとなります。
 
 対応プレイヤータグ（以下のタグを入力してください）
 ・2LL9CJ9
